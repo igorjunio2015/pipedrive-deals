@@ -1,0 +1,24 @@
+{
+  "name": "pipedrive-deal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^14.17.6",
+    "npm": "^6.14.15"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "dependencies": {
+    "npmlog": "^6.0.2",
+    "express": "^4.18.1",
+    "pipedrive": "^15.0.1"
+  }
+}
