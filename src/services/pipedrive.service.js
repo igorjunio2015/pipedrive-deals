@@ -36,7 +36,7 @@ module.exports = class PipedriveService {
                 "1c789bc9694dd2d61f0c4c8b073ee433365dca97": `${params.nome} ${params.sobrenome}`,
                 "1019bb808f1594729c22368b5436ca7a17b0df87": params.email,
                 "58ef1435017cc0c4aca73613a13afa499a611cad": params.telefone,
-                "3358f544d27546aebcfeed9a4d4ada87fccbbe29": params.cargo,
+                // "3358f544d27546aebcfeed9a4d4ada87fccbbe29": params.cargo,
                 "1ce7fa13bc199dee8c04a3138756b0f8bba7b1c0": `${params.titulo}, setor: ${params.setor}`,
                 "80b23c7b4cc6a8f7cb2152863011d45006fd497d": params.tamanhoEmpresa,
                 "e07b41faef221c00f7401d4ee437a1d29b3597dd": params.necessidade,

@@ -31,7 +31,7 @@ function validarBody(req, res, next) {
     if (!req.body.sobrenome) return res.status(404).json({ erro: true, message: "'sobrenome' not found in body" });
     if (!req.body.email) return res.status(404).json({ erro: true, message: "'email' not found in body" });
     if (!req.body.telefone) return res.status(404).json({ erro: true, message: "'telefone' not found in body" });
-    if (!req.body.cargo) return res.status(404).json({ erro: true, message: "'cargo' not found in body" });
+    // if (!req.body.cargo) return res.status(404).json({ erro: true, message: "'cargo' not found in body" });
     if (!req.body.tamanhoEmpresa) return res.status(404).json({ erro: true, message: "'tamanhoEmpresa' not found in body" });
     if (!req.body.setor) return res.status(404).json({ erro: true, message: "'setor' not found in body" });
     if (!req.body.necessidade) return res.status(404).json({ erro: true, message: "'necessidade' not found in body" });
